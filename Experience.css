@@ -1,0 +1,62 @@
+html {
+    background-color: rgb(48, 46, 46); 
+}
+.experience {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: repeat(6,auto);
+    grid-template-areas: '. . . . . .'
+    '. . head head head . '
+    'secondary secondary alevel alevel work work '
+    'secondary secondary alevel alevel work work '
+    '. . . . . . ';
+    color: #ccc;
+    font-size: 1.3em;
+}
+.expo-header {
+    grid-area: head;
+    padding-left: 0;
+}
+.Secodary {
+    grid-area: secondary;
+    padding-right: 2em;
+}
+.Alevel {
+    grid-area: alevel;
+    padding-right: 2em;
+}
+.work-experience {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(4,auto);
+    grid-template-areas: 'one one two two'
+    'one one two two'
+    'three three four four'
+    'three three four four';
+    grid-area: work;
+    padding-right: 2em;
+}
+.one {grid-area: one;}
+.two {grid-area: two;}
+.three {grid-area: three;}
+.four {
+    grid-area: four;
+    padding-top: 1em;
+}
+.div1 {
+    display: flex;
+    padding-left: 80%;
+}
+.Home {
+    display: flex;
+    justify-content: space-around;
+    color: #ccc;
+}
+.ABM {
+    padding-left: 30px;
+    color: #ccc;
+}
+.SK1 {
+    padding-left: 30px;
+    color: #ccc;
+}

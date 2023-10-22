@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="blog-post.css">
+    <title>BLOG</title>
+</head>
+<body>
+   <a href="logout.php" class = "logout">Log Out</a>
+    <section class="blog">
+      <center><h2 class="header">POST HERE!</h2>
+        <form action="Addpost.php" method="POST">
+        <label class="ti-text" for="email">Title :</label><br>
+        <input type="text" class="title" id="title" name="title"><br> <label class="co-text" for="pass">Comment :</label><br>
+        <input type="text" class="comment" id="comment" name="comment"><br> <div class="buttons"><input class="po" id="po" type="submit" value="Post"> <input class="cl" type="button" onclick="confirmClear()" value="Clear"></div>
+        </form> 
+    </center>
+    </section>
+    <article>
+        <br>
+        <center><h1 class="header2">WHERE TO FIND ME :</h1></center>
+        <figure class="links">
+        <center><a href="https://www.linkedin.com/in/yahya-ahmed-01b09b25a/"><img class="pic1" src="IN.png" alt=""></a></center>
+        <center class="email">Email: yahyadahirahmed@outlook.com</center>
+    </figure>
+    </article>
+    <script src="jScript.js"></script>
+</body>
+</html>

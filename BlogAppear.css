@@ -1,0 +1,17 @@
+html {
+    background-color: rgb(48, 46, 46); 
+}
+.top {
+    text-align: center;
+}
+.table {
+    color: white;
+    width: 100%;
+    border-width: 5px;
+    border-style: solid;
+}
+.header {
+    width: 25%;
+    border-style: solid;
+}
+    

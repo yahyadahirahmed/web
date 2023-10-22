@@ -1,0 +1,46 @@
+html {
+    background-color: rgb(48, 46, 46);
+}
+.aboutme {
+display: flex;
+margin-top: 15em;
+width: 70%;
+
+}
+.aboutme-header {
+    margin: 2em;
+    color: #ccc;
+    
+}
+.aboutme-img {
+    width: 450px;
+    height: 350px;
+    margin-left: 2em;
+    border-radius: 1em;
+    box-shadow: #535151 1.1em 1.1em 1.1em;
+}
+hr {
+    height: 20em;
+}
+.aboutme-text { 
+    padding-left: 2em;
+    font-size: 1.3em;
+    color: #ccc;
+} 
+.div2 {
+    display: flex;
+    padding-left: 80%;
+}
+.Home {
+    display: flex;
+    justify-content: space-around;
+    color: #ccc;
+}
+.AB {
+    padding-left: 30px;
+    color: #ccc;
+}
+.SK {
+    padding-left: 30px;
+    color: #ccc;
+}

@@ -1,0 +1,88 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+body, html {
+    background-color: rgb(48, 46, 46);
+    height: 100%;
+}
+.login {
+    margin-top: 10em;
+    border-width: 0;
+    object-position: center;
+    color: #ccc;
+}
+.login-header {
+    font-size: 2.3em;
+    font-family: Sono;
+}
+.user {
+    margin-bottom: 2em;
+}
+.user-text {
+    font-size: 1.4em;
+}
+.pass-text {
+    font-size: 1.4em;
+}
+.submit {
+    margin-top: 2em;
+}
+.top {
+    display: flex;
+}
+.header {
+    margin: 0;
+    color: #ccc;
+    font-family: Sono;
+    
+}
+.links {
+    margin-top: 0.2em;
+    padding-left: 22em;
+    font-size: 1.8em;
+    font-family: Sono;
+}
+.link1 {
+    color: #ccc;
+    background-color: transparent;
+    text-decoration: none;
+}
+.link2 {
+    padding-left: 2em;
+    color: #ccc;
+    background-color: transparent;
+    text-decoration: none;
+}
+.link3 {
+    padding-left: 1.5em;
+    color: #ccc;
+    background-color: transparent;
+    text-decoration: none;
+}
+.link4 {
+    padding-left: 2em;
+    color: #ccc;
+    background-color: transparent;
+    text-decoration: none;
+}
+.email {
+    font-size: 1.4em;
+}
+.email-name {
+    font-size: 1.4em;
+    font-family: Teko;
+}
+.password {
+    font-size: 1.4em;
+}
+.password-name {
+    font-size: 1.4em;
+    font-family: Teko;
+}
+.submit {
+    margin: 0;
+    font-size: 1em;
+}
+br {
+    width: 2em;
+    height: 2em;
+}
